@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: #f5f5f5;
+    color: #111;
+    transition: 0.3s;
+}
+.dark{
+    background: #121212;
+    color: #eee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #222;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color: #00adb5;
+}
+
+#toggle{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.profile{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.hero h1{
+    margin-bottom: 10px;
+}
+.hero span  {
+    color: #00adb5;
+}
+.hero p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.buttons a {
+    padding: 10px 22px;
+    background: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+ section {
+    padding: 60px 20px;
+    text-align: center;
+ }
+ .about p {
+    max-width: 600px;
+    margin:auto;
+ }
+ .skill-list span {
+    display: inline-block;
+    background: #00adb5;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px;
+    border-radius: 20px;
+ }
+ 
+ .project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+ }
+
+ .card {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 8px;
+ }
+ .dark .card {
+    background: #1f1f1f;
+ }
+
+ .card-links {
+    margin-top: 15px;
+ }
+.card-links a {
+    margin-right: 10px;
+    color: #00adb5;
+    text-decoration: none;
+}
+
+#contact a {
+    color: #00adb5;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
